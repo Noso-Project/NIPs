@@ -41,7 +41,7 @@ For Noso implementers, NIPs are a convenient way to track the progress of their 
 There are three types of NIP:
 
  
-- A **Standards Track NIP** describes any change that affects most or all Noso implementations, such as—a change to the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Noso. Standards Track SIPs consist of three parts—a design document, an implementation, and a budget if needed. Furthermore, Standards Track SIPs can be broken down into the following categories:
+- A **Standards Track NIP** describes any change that affects most or all Noso implementations, such as—a change to the network protocol, a change in block or transaction validity rules, proposed application standards/conventions, or any change or addition that affects the interoperability of applications using Noso. Standards Track NIPs consist of three parts—a design document, an implementation, and a budget if needed. Furthermore, Standards Track NIPs can be broken down into the following categories:
 
 
 -  **Core**: Proposals that will affect to Core functionalities of Noso, and needs to be tracked and validated
@@ -52,7 +52,7 @@ There are three types of NIP:
 
   
 
-- An **Informational SIP** describes an Noso design issue, or provides general guidelines or information to the Noso community, but does not propose a new feature. Informational NIPs do not necessarily represent Noso, community consensus or a recommendation, so users and implementers are free to ignore Informational NIPs or follow their advice.
+- An **Informational NIP** describes an Noso design issue, or provides general guidelines or information to the Noso community, but does not propose a new feature. Informational NIPs do not necessarily represent Noso, community consensus or a recommendation, so users and implementers are free to ignore Informational NIPs or follow their advice.
 
   
 
@@ -79,7 +79,7 @@ Once the idea has been vetted, your next responsibility will be to present (by m
 
   
 
-### Core SIPs
+### Core NIPs
 
   
 
@@ -165,7 +165,7 @@ Each NIP should have the following parts:
 
   
 
-SIPs should be written in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format. There is a [template](https://github.com/ethereum/EIPs/blob/master/eip-template.md) to follow.
+NIPs should be written in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) format. There is a [template](https://github.com/ethereum/EIPs/blob/master/eip-template.md) to follow.
 
   
 
@@ -177,7 +177,7 @@ Each NIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style
 
   
 
-`sip`: *NIP number* (this is determined by the SIP editor)
+`sip`: *NIP number* (this is determined by the NIP editor)
 
   
 
@@ -302,7 +302,7 @@ The `category` header specifies the NIP's category. This is required for standar
 
   
 
-The `created` header records the date that the SIP was assigned a number. Both headers should be in yyyy-mm-dd format, e.g. 2001-08-14.
+The `created` header records the date that the NIP was assigned a number. Both headers should be in yyyy-mm-dd format, e.g. 2001-08-14.
 
   
 
@@ -353,7 +353,7 @@ For each new NIP that comes in, an author does the following:
 
   
 
-### SIP numbers
+### NIP numbers
 
   
 
