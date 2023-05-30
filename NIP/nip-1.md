@@ -35,7 +35,7 @@ An example can be automatic-transforming this Reference "**Transaction for Devs*
 
 ## Rationale
 
-Using "-" or "_" is something that other systems used, so it's "easy" to understant or read by all Noso users.
+Using "_" is something that other systems used, so it's "easy" to understant or read by all Noso users.
 
   
 
@@ -46,9 +46,9 @@ Setting this new feature is "backward" compatible, as previos references cannot 
 
 ## Test Cases
 
-Testing ading "-" or "_" mannually successfully worker. We can discuss about two possibilities, explaining to all noso users that is needed to use this specified "syntax" or make Noso aware of white spaces and changing to "-" or "_" 
+Testing adding "_" mannually works. We can discuss about two possibilities, explaining to all noso users that is needed to use this specified "syntax" or make Noso aware of white spaces and changing to "-" 
 
-  
+ 
 
 ## Reference Implementation
 
