@@ -13,52 +13,52 @@ requires (*optional):
 
 ## Abstract
 
-When creating a transaction you have a field named "Reference" that can be used to add some text, for example : Transaction for Devs, Testing Transaction .. etc. When Reference field, has a few words separated by white spaces, then only first word until first white space is recorded. 
+When creating a transaction you have a field named "Reference" that can be used to add some text, for example : Transaction for Devs, Testing Transaction .. etc. When the Reference field, has a few words separated by white spaces, then only the first word until first white space is recorded. 
 
-Example is setting Reference as-> Transaction for Devs, current system will save only "Transaction". 
+Example is setting reference as -> Transaction for Devs, current system will save only "Transaction". 
 
 
   
 
 ## Motivation
 
-Allowing to have a more complete text on reference will help Noso users to understant what what this transaction for. 
+Allowing to have a more complete text on reference will help Noso users to review any transaction and get more information. 
 
 ## Specification
 
-The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119.
+The keywords “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119.
 
-Allow white spaces can solve this issue, but in a technical perspective those white spaces cannot be used. Other characters can be used to avoid White spaces, like "-" or "_", 
+Allow white spaces can solve this issue, but from a technical perspective those white spaces cannot be used. Other characters can be used to avoid White spaces, like "-" or "_", 
 
-An example can be automatic-transforming this Reference "**Transaction for Devs**" to "**Transaction_for_Devs**". 
+An example can be automatic-transforming this reference "**Transaction for Devs**" to "**Transaction_for_Devs**". 
   
 
 ## Rationale
 
-Using "_" is something that other systems used, so it's "easy" to understant or read by all Noso users.
+Using "_" is something that other systems used, so it's "easy" to understand or read by all Noso users.
 
   
 
 ## Backwards Compatibility
 
-Setting this new feature is "backward" compatible, as previos references cannot be modified, but new ones can use this format.
+Setting this new feature is "backward" compatible, as previous references cannot be modified, but new ones can use this format.
 
 
 ## Test Cases
 
-Testing adding "_" mannually works. We can discuss about two possibilities, explaining to all noso users that is needed to use this specified "syntax" or make Noso aware of white spaces and changing to "-" 
+Testing adding "_" manually works. We can discuss two possibilities, explaining to all noso users that it is needed to use this specified "syntax" or make Noso aware of white spaces and changing to "-" 
 
  
 
 ## Reference Implementation
 
-You can make simple test using your wallet to send a small transaction.
+You can make a simple test using your wallet to send a small transaction.
 
   
 
 ## Security Considerations
 
-It's important to control which symbols can be used on reference field, to avoid any king of Injection attack or some special symbols that can generate errors.
+It's important to control which symbols can be used on reference field, to avoid any kind of Injection attack or some special symbols that can generate errors.
 
   
 
