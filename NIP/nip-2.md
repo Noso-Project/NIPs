@@ -6,7 +6,7 @@ author: Gustavo 'Gus' Carreno (@gcarreno)
 discussions-to: N/A, due to banishment from Discord server and no GitHub Discussions not enabled on the repository
 status: Draft
 type: Standards Track
-category Core
+category: Core
 created: 2023-06-02
 ---
 
