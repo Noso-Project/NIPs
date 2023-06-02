@@ -3,7 +3,7 @@ nip: 2
 title: Consolidate Threading Model
 description: Bring the many solutions implemented to do background work under one single concept
 author: Gustavo 'Gus' Carreno (@gcarreno)
-discussions-to: N/A, due to banishment from Discord server and no GitHub Discussions not enabled on the repository
+discussions-to: N/A, due to banishment from Discord server and GitHub Discussions not enabled on the repository
 status: Draft
 type: Standards Track
 category: Core
