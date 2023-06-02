@@ -20,7 +20,7 @@ In the current implementation we see 3 concepts implemented:
 
 This very muddled threading model is very hard to maintain and even harder to debug when a problem arises.
 
-At this moment, the freezing of the UI is quite noticeable when some tasks have to be performed inside the `latido` timer. There is also many time when the software just freezes completely, stuck in an apparent dead lock.
+At this moment, the freezing of the UI is quite noticeable when some tasks have to be performed inside the `latido` timer. There is also many times when the software just freezes completely, stuck in an apparent dead lock.
 
 ## Motivation
 
