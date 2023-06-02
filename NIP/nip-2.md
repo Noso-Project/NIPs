@@ -27,6 +27,7 @@ At this moment, the freezing of the UI is quite noticeable when some tasks have 
 Make sure the threading model is consistent and has enough calls to the synchronisation methods that do not freeze the UI, nor enter the software in dead lock situations.
 
 ## Specification
+
 The key words “MUST”, “MUST NOT”, “REQUIRED”, “SHALL”, “SHALL NOT”, “SHOULD”, “SHOULD NOT”, “RECOMMENDED”, “MAY”, and “OPTIONAL” in this document are to be interpreted as described in RFC 2119.
 
 Eliminate the need for the `latido` timer and move all that code inside it to a thread model that include some IPC(**I**nter **P**rocess **C**ommunication) solutiuon.
