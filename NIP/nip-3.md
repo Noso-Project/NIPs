@@ -22,7 +22,7 @@ Use either `dBase` or `GNUDB` as well known key-value pair databases or `LevelDB
 
 With the use of a database, any database, the fact that we can have indexes from block to operation and vice-versa, will solve a lot of the overhead that now occurs when attempting to retrieve information via the `RPC` system.
 
-With a database, especially a key-value pair one, the retrievel of **ANY** morsel of data would always be `O(log n)` and not what ever it is now for operations.
+With a database, especially a key-value pair one, the retrievel of **ANY** morsel of data would always be `O(log n)` and not what ever it is now for operations, which I'm guessing is `O(n)` at best.
 
 ## Specification
 
@@ -39,6 +39,8 @@ This only makes one, and one thing only, quick to get at: A block from a numeric
 Everything else is slow due to the fact that there are zero indexes to this data, apart from the natural one of block number.
 
 With, at least, a key-value pair database we would have a better management of data, with the speeds that come with that.
+
+It would be possible to have 2 separate storage containers for blocks and orders, that combined with the `O(log n)` speeds that the indexes binary tree search allows would be a major improvement to the current situation.
 
 And we would not have to deal with the problems that arise from abusing file system with so many small files.
 
